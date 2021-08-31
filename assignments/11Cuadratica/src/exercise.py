@@ -15,7 +15,7 @@ def main():
         if discrim < 0:
             print("Raices complejas")
         elif (discrim) >0:
-            x1 = (-b - math.sqrt(discrim)) / 2 * a
+            x1 = (-b + math.sqrt(discrim)) / 2 * a
             x2 = (-b - math.sqrt(discrim))/ 2 * a
             print(x1)
             print(x2)
